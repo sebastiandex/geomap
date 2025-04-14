@@ -32,7 +32,7 @@ const checkActive = (airport: Airport) => {
 
 <template>
   <AppMap class="TheMap">
-    <AppMapView :center="fromLonLat([98, 54])" :zoom="4.5" />
+    <AppMapView :center="fromLonLat([88, 54])" :zoom="4" />
     <AppMapTileLayer>
       <AppMapXYZ :url="sourceUrl" />
     </AppMapTileLayer>
