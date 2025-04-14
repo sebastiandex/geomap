@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "vue"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "@typescript-eslint/no-unused-vars": ["warn", {
+      "args": "none",
+      "varsIgnorePattern": "^_",
+      "argsIgnorePattern": "^_"
+    }],
+    "@typescript-eslint/no-explicit-any": "warn",
+    "vue/component-name-in-template-casing": ["error", "PascalCase"],
+    "vue/html-button-has-type": "error",
+    "vue/padding-lines-in-component-definition": "error",
+    "vue/padding-line-between-blocks": ["error", "always"],
+    "vue/no-empty-component-block": "error",
+    "vue/no-potential-component-option-typo": ["error", { "presets": ["vue", "nuxt"] }],
+    "vue/require-default-prop": "off",
+    "import/no-named-as-default-member": "off",
+    "vue/no-v-html": "off",
+    "vue/require-prop-types": "off"
+  }
+}

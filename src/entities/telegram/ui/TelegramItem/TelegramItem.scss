@@ -1,0 +1,65 @@
+.TelegramItem {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 13px 16px 13px 16px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: var(--color-card);
+  transition: border-color 0.3s;
+
+  &_active {
+    border-color: var(--color-text);
+  }
+  
+  &__type {
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 12px;
+  }
+   
+  &__type_lightBlue {
+    color: var(--color-light-blue);
+  }
+  
+  &__type_blue {
+    color: var(--color-blue);
+  }
+  
+  &__type_purple {
+    color: var(--color-purple);
+  }
+ 
+  &__type_orange {
+    color: var(--color-orange);
+  }
+  
+  &__type_green {
+    color: var(--color-green);
+  }
+
+  &__code {
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  &__arrow {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 24px;
+    color: var(--color-text-a4);
+  }
+
+  &__time {
+    color: var(--color-text-a6);
+    text-align: right;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: auto;
+  }
+}

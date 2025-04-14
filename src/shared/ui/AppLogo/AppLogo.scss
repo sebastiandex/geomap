@@ -1,0 +1,19 @@
+.AppLogo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-link);
+  transition: color 0.3s;
+
+  &__image {
+    margin-right: 20px;
+    height: 28px;
+  }
+
+  &__text {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+}

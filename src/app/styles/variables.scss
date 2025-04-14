@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --color-white: #FFF;
+  --color-light-blue: #8AD5FF;
+  --color-blue: #3F75FF;
+  --color-purple: #6446B8;
+  --color-orange: #F7A52A;
+  --color-green: #46B874;
+  
+  /* Gradients */
+  --grad-5: linear-gradient(270deg, #C0D4EC 0%, #6C77D3 100%);
+
+  /* Sizes */
+  --header-height: 71px;
+}
+
+body.light {
+  --color-bg: #FFF;
+  --color-border: #EBEFF5;
+  --color-text: #333;
+  --color-text-a4: rgba(51, 51, 51, 0.40);
+  --color-text-a6: rgba(51, 51, 51, 0.60);
+  --color-text-a8: rgba(51, 51, 51, 0.80);
+  --color-link: #170C61;
+  --color-card: rgba(51, 51, 51, 0.02);
+  --color-scrollbar-thumb: #ECF3FF;
+}
+
+body.dark {
+  --color-bg: #333;
+  --color-border: #242424;
+  --color-text: rgba(255, 255, 255, 0.85);
+  --color-text-a4: rgba(255, 255, 255, 0.40);
+  --color-text-a6: rgba(255, 255, 255, 0.60);
+  --color-text-a8: rgba(255, 255, 255, 0.80);
+  --color-link: rgba(255, 255, 255, 0.60);
+  --color-card: rgba(255, 255, 255, 0.02);
+  --color-scrollbar-thumb: #2E2E2E;
+}

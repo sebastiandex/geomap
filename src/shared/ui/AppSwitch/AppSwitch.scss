@@ -1,0 +1,57 @@
+.AppSwitch {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &__control {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 100px;
+    background: var(--grad-5);
+  }
+
+  &__control::before {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    content: '';
+    transition: transform 0.3s;
+  }
+
+  &__activeText,
+  &__inactiveText {
+    font-size: 13px;
+    line-height: 22px;
+    transition: color 0.3s;
+  }
+
+  &__activeText {
+    margin-left: 8px;
+    color: var(--color-text-a4);
+  }
+
+  &__inactiveText {
+    margin-right: 8px;
+    color: var(--color-text);
+  }
+
+  &_active &__control::before {
+    transform: translateX(20px);
+  }
+
+  &_active &__activeText {
+    color: var(--color-text);
+  }
+
+  &_active &__inactiveText {
+    color: var(--color-text-a4);
+  }
+}
