@@ -23,7 +23,7 @@ const themeStore = useThemeStore()
 const telegramStore = useTelegramStore()
 const sourceUrl = computed(() => tileUrls[themeStore.theme])
 const airports = computed(() => getAirportsFromTelegrams(telegramStore.telegrams))
-
+const store = useTelegramStore()
 const checkActive = (airport: Airport) => {
   const { selected } = telegramStore
   return selected?.from.name === airport.name || selected?.to.name === airport.name
@@ -31,7 +31,7 @@ const checkActive = (airport: Airport) => {
 </script>
 
 <template>
-  <AppMap class="TheMap">
+  <AppMap class="TheMap" @click="store.autoRunIOn = false" @wheel="store.autoRunIOn = false">
     <AppMapView :center="fromLonLat([88, 54])" :zoom="4" />
     <AppMapTileLayer>
       <AppMapXYZ :url="sourceUrl" />

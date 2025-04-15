@@ -12,6 +12,7 @@
   &__header {
     display: flex;
     align-items: center;
+    jus
   }
 
   &__title {
@@ -25,5 +26,16 @@
 
   &__routes {
     margin-top: 23px;
+  }
+  &__button {
+    all: unset;
+    cursor: pointer;
+    height: 24px;
+    align-items: center;
+    padding: 0 8px;
+    color: #FFFFFF;
+    background-color: #3D8BBB;
+    font-size: 14px;
+    border-radius: 4px;
   }
 }

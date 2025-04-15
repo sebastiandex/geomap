@@ -31,7 +31,7 @@ export async function playAutoSelect() {
         store.addActive(telegrams[i])
         if (i < telegrams.length - 1) loopIt(i + 1)
       },
-      Math.floor(Math.random() * (1500 - 100 + 1) + 100)
+      Math.floor(Math.random() * (1200 - 100 + 1) + 100)
     )
     const telegramsCopy = JSON.parse(JSON.stringify(store.telegrams))
     store.telegrams = telegramsCopy

@@ -6,7 +6,7 @@ import { mockData } from './mocks_first_part(2)'
 export const useTelegramStore = defineStore('telegram', () => {
   const selected = ref<Telegram>()
   const active = ref<Telegram[]>([])
-  const autoRunIOn = ref<boolean>(false)
+  const autoRunIOn = ref<boolean>(true)
   const date = ref<string>(new Date().toString())
   const telegrams = ref<Telegram[]>(mockData)
 

@@ -49,7 +49,7 @@ const codeColors: Record<TelegramType, string> = {
     <!-- <div class="TelegramItem__time">
       {{ getTime(props.telegram.datetime) }}
     </div> -->
-    <div class="TelegramItem__time">
+    <div class="TelegramItem__iata">
       {{ props.telegram.iata }}
     </div>
   </button>

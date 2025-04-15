@@ -12,6 +12,7 @@ const checkActive = (telegram: Telegram) => {
 
 const onClick = (telegram: Telegram) => {
   // store.setSelected(telegram)
+  store.autoRunIOn = false
   store.addActive(telegram)
 }
 </script>

@@ -28,7 +28,7 @@ export const renderTelegram: RenderFunction = (_coords, state) => {
   ctx.closePath()
   // Render Circle
   ctx.beginPath()
-  ctx.arc(startX, startY, 2 * ratio, 0, 2 * Math.PI)
+  ctx.arc(startX, startY, 1 * ratio, 0, 2 * Math.PI)
   // ctx.fillStyle = theme === 'dark' ? '#626364' : '#fefefe'
   ctx.fillStyle = getTelegramColor(store.active[0].type)
   ctx.fill()
@@ -44,7 +44,7 @@ export const renderTelegram: RenderFunction = (_coords, state) => {
   const dx = endSegment[0] - startSegment[0]
   const dy = endSegment[1] - startSegment[1]
   const rotation = Math.atan2(dy, dx) || 0
-  const arrowLength = 6 * ratio
+  const arrowLength = 4 * ratio
   ctx.beginPath()
   ctx.save()
   ctx.translate(endX, endY)

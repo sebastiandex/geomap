@@ -1,11 +1,12 @@
 <script lang="ts" setup>
 import { TelegramList } from '@/entities/telegram'
 import { useTelegramStore } from '@/entities/telegram'
-import { AppDatePicker } from '@/shared/ui/AppDatePicker'
+// import { AppDatePicker } from '@/shared/ui/AppDatePicker'
 import { playAutoSelect } from '@/entities/airport/lib/helpers'
 import './TheSideBar.scss'
 
 const store = useTelegramStore()
+playAutoSelect()
 </script>
 
 <template>
@@ -14,6 +15,7 @@ const store = useTelegramStore()
       <div class="TheSideBar__title">Телеграммы</div>
       <!-- <AppDatePicker v-model="store.date" /> -->
       <button
+        class="TheSideBar__button"
         type="button"
         @click="!store.autoRunIOn ? playAutoSelect() : (store.autoRunIOn = false)"
       >
