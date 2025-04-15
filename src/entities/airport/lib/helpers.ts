@@ -25,7 +25,6 @@ export async function playAutoSelect() {
     setTimeout(
       function () {
         if (!store.autoRunIOn) {
-          console.log('OFF')
           return
         }
         store.addActive(telegrams[i])

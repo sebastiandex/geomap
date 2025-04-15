@@ -10,13 +10,13 @@ interface TelegramItemProps {
 
 const props = defineProps<TelegramItemProps>()
 
-const getTime = (date: string) => {
-  const time = new Date(date)
-  const hours = (time.getHours() < 10 ? '0' : '') + time.getHours()
-  const minutes = (time.getMinutes() < 10 ? '0' : '') + time.getMinutes()
-  const seconds = (time.getSeconds() < 10 ? '0' : '') + time.getSeconds()
-  return `${hours + ':' + minutes + ':' + seconds}`
-}
+// const getTime = (date: string) => {
+//   const time = new Date(date)
+//   const hours = (time.getHours() < 10 ? '0' : '') + time.getHours()
+//   const minutes = (time.getMinutes() < 10 ? '0' : '') + time.getMinutes()
+//   const seconds = (time.getSeconds() < 10 ? '0' : '') + time.getSeconds()
+//   return `${hours + ':' + minutes + ':' + seconds}`
+// }
 
 const codeColors: Record<TelegramType, string> = {
   PNL: 'lightBlue',

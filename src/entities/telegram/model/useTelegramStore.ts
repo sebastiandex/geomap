@@ -18,7 +18,6 @@ export const useTelegramStore = defineStore('telegram', () => {
     if (!exists) {
       active.value.push(telegram)
     }
-    console.log('active value', active.value)
   }
   const removeActive = (id: number) => {
     active.value = active.value.filter((item) => item.id !== id)

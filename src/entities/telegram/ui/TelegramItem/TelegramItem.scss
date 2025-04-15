@@ -9,7 +9,7 @@
   border: 1px solid transparent;
   cursor: pointer;
   background-color: var(--color-card);
-  transition: border-color 0.3s;
+  transition: height 0.3s;
 
   &_active {
     border-color: var(--color-text);
