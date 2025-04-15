@@ -1,7 +1,7 @@
 import { ref, watch } from 'vue'
 import { defineStore } from 'pinia'
 import type { Telegram } from '@/shared/model'
-import { mockData } from './mocks_first_part'
+import { mockData } from './mocks_first_part(2)'
 
 export const useTelegramStore = defineStore('telegram', () => {
   const selected = ref<Telegram>()

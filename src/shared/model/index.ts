@@ -14,5 +14,6 @@ export interface Telegram {
   type: TelegramType
   from: Airport
   to: Airport
+  iata: string
   datetime: string
 }

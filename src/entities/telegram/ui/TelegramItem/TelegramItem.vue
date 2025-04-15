@@ -46,8 +46,11 @@ const codeColors: Record<TelegramType, string> = {
     <div v-else class="TelegramItem__code">
       {{ props.telegram.to.name }}
     </div>
-    <div class="TelegramItem__time">
+    <!-- <div class="TelegramItem__time">
       {{ getTime(props.telegram.datetime) }}
+    </div> -->
+    <div class="TelegramItem__time">
+      {{ props.telegram.iata }}
     </div>
   </button>
 </template>
