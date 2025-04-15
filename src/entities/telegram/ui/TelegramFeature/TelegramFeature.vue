@@ -26,8 +26,11 @@ const coords = computed(() => getLineCoords(props.telegram).slice(0, elapsedPoin
 
 const onPostRender = () => {
   if (elapsedPoints.value >= LINE_POINTS) {
-    store.removeActive(props.telegram.id)
-    return stopAnimation()
+    // Задержка перед исчезновением стрелки
+    setTimeout(() => {
+      store.removeActive(props.telegram.id)
+    }, 200)
+    // return stopAnimation()
   }
   const diff = Date.now() - startTime.value
   elapsedPoints.value = Math.ceil(diff * POINTS_PER_MS)

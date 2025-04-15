@@ -34,7 +34,8 @@ export async function playAutoSelect() {
       Math.floor(Math.random() * (1200 - 100 + 1) + 100)
     )
     const telegramsCopy = JSON.parse(JSON.stringify(store.telegrams))
-    store.telegrams = telegramsCopy
+    telegramsCopy.push(telegrams[i])
+    telegramsCopy.shift()
     store.telegrams = telegramsCopy
     if (i == telegrams.length - 1) {
       store.telegrams = mockData

@@ -15,7 +15,7 @@ export const renderTelegram: RenderFunction = (_coords, state) => {
   const endY = coords.at(-1)![1]
   const ctx = state.context
   const ratio = RENDER_RATIO
-  const theme = state.feature.get('theme') || 'light'
+  // const theme = state.feature.get('theme') || 'light'
   const geometry = state.feature.getGeometry() as LineString
   // ctx.strokeStyle = getTelegramColor(store.active[0].type)
   ctx.strokeStyle = '#6BCAFF'
