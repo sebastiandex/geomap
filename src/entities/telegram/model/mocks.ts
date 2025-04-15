@@ -14,6 +14,7 @@ export const mockData: Telegram[] = [
     },
 
     datetime: '10.04.2025, 10:46:45',
+    iata: '',
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 08:46:45',
+    iata: '',
   },
   {
     id: 2,
@@ -40,6 +42,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 08:46:45',
+    iata: '',
   },
   {
     id: 3,
@@ -53,6 +56,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 03:46:45',
+    iata: '',
   },
 
   {
@@ -68,6 +72,7 @@ export const mockData: Telegram[] = [
     },
 
     datetime: '10.04.2025, 03:46:45',
+    iata: '',
   },
   {
     id: 4,
@@ -81,6 +86,7 @@ export const mockData: Telegram[] = [
       coords: [9195002.644889634, 7367525.69900809],
     },
     datetime: '10.04.2025, 15:35:49',
+    iata: '',
   },
   {
     id: 54,
@@ -94,6 +100,7 @@ export const mockData: Telegram[] = [
       coords: [9195002.644889634, 7367525.69900809],
     },
     datetime: '10.04.2025, 15:35:49',
+    iata: '',
   },
   {
     id: 44,
@@ -107,6 +114,7 @@ export const mockData: Telegram[] = [
       coords: [9195002.644889634, 7367525.69900809],
     },
     datetime: '10.04.2025, 15:35:49',
+    iata: '',
   },
   {
     id: 5,
@@ -120,6 +128,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 10:02:37',
+    iata: '',
   },
   {
     id: 6,
@@ -133,6 +142,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 08:34:37',
+    iata: '',
   },
   {
     id: 7,
@@ -146,6 +156,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 05:09:37',
+    iata: '',
   },
   {
     id: 8,
@@ -159,6 +170,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 00:45:00',
+    iata: '',
   },
   {
     id: 9,
@@ -172,6 +184,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 22:45:00',
+    iata: '',
   },
   {
     id: 10,
@@ -185,6 +198,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 20:45:00',
+    iata: '',
   },
   {
     id: 11,
@@ -198,6 +212,7 @@ export const mockData: Telegram[] = [
       coords: [9195002.644889634, 7367525.69900809],
     },
     datetime: '10.04.2025, 18:45:00',
+    iata: '',
   },
   {
     id: 12,
@@ -211,6 +226,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.03.2023, 16:45:00',
+    iata: '',
   },
   {
     id: 13,
@@ -224,6 +240,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.03.2023, 14:45:00',
+    iata: '',
   },
   {
     id: 14,
@@ -237,6 +254,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '10.04.2025, 12:45:00',
+    iata: '',
   },
   {
     id: 15,
@@ -250,6 +268,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.03.2023, 10:45:00',
+    iata: '',
   },
   {
     id: 16,
@@ -263,6 +282,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.03.2023, 06:45:00',
+    iata: '',
   },
   {
     id: 17,
@@ -276,6 +296,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.03.2023, 04:45:00',
+    iata: '',
   },
   {
     id: 18,
@@ -289,6 +310,7 @@ export const mockData: Telegram[] = [
       coords: [9195002.644889634, 7367525.69900809],
     },
     datetime: '09.03.2023, 02:45:00',
+    iata: '',
   },
   {
     id: 19,
@@ -302,6 +324,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.02.2023, 21:45:00',
+    iata: '',
   },
   {
     id: 20,
@@ -315,6 +338,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.02.2023, 19:45:00',
+    iata: '',
   },
   {
     id: 21,
@@ -328,6 +352,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.02.2023, 15:45:00',
+    iata: '',
   },
   {
     id: 22,
@@ -341,6 +366,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.02.2023, 11:45:00',
+    iata: '',
   },
   {
     id: 23,
@@ -354,6 +380,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.02.2023, 05:45:00',
+    iata: '',
   },
   {
     id: 24,
@@ -367,6 +394,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.01.2023, 15:45:00',
+    iata: '',
   },
   {
     id: 25,
@@ -380,6 +408,7 @@ export const mockData: Telegram[] = [
       coords: [9195002.644889634, 7367525.69900809],
     },
     datetime: '09.01.2023, 12:45:00',
+    iata: '',
   },
   {
     id: 26,
@@ -393,6 +422,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.01.2023, 09:45:00',
+    iata: '',
   },
   {
     id: 27,
@@ -406,6 +436,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.01.2023, 06:45:00',
+    iata: '',
   },
   {
     id: 28,
@@ -419,6 +450,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.01.2023, 00:45:00',
+    iata: '',
   },
   {
     id: 29,
@@ -432,6 +464,7 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.01.2023, 00:45:00',
+    iata: '',
   },
   {
     id: 230,
@@ -445,5 +478,6 @@ export const mockData: Telegram[] = [
       coords: [14710449.907768734, 5371915.36974926],
     },
     datetime: '09.01.2023, 00:45:00',
+    iata: '',
   },
 ]
