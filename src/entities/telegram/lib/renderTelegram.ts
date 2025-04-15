@@ -28,7 +28,7 @@ export const renderTelegram: RenderFunction = (_coords, state) => {
   ctx.closePath()
   // Render Circle
   ctx.beginPath()
-  ctx.arc(startX, startY, 1 * ratio, 0, 2 * Math.PI)
+  ctx.arc(startX, startY, 2 * ratio, 0, 2 * Math.PI)
   // ctx.fillStyle = theme === 'dark' ? '#626364' : '#fefefe'
   ctx.fillStyle = getTelegramColor(store.active[0].type)
   ctx.fill()
