@@ -31,8 +31,13 @@ const checkActive = (airport: Airport) => {
 </script>
 
 <template>
-  <AppMap class="TheMap" @click="store.autoRunIOn = false" @wheel="store.autoRunIOn = false">
-    <AppMapView :center="fromLonLat([88, 54])" :zoom="4" />
+  <AppMap
+    class="TheMap"
+    @click="store.disableAutoPlay()"
+    @mousedown="store.disableAutoPlay()"
+    @wheel="store.disableAutoPlay()"
+  >
+    <AppMapView :center="fromLonLat([88, 54])" :zoom="3.7" />
     <AppMapTileLayer>
       <AppMapXYZ :url="sourceUrl" />
     </AppMapTileLayer>

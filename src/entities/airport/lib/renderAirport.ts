@@ -9,7 +9,9 @@ export const renderAirport: RenderFunction = (coords, state) => {
   const ratio = RENDER_RATIO
   const isActive = state.feature.get('active')
   const mainColor = isActive ? '#6BCAFF' : theme === 'dark' ? '#434246' : '#928FA0'
+  // const mainColor = isActive ? '#6BCAFF' : '#928FA0'
   const textColor = theme === 'dark' ? (isActive ? '#333' : 'rgba(255, 255, 255, 0.6)') : '#fff'
+  // const textColor = isActive ? '#333' : '#fff'
   // Render circle
   ctx.beginPath()
   ctx.arc(x, y, 2 * ratio, 0, 2 * Math.PI)
@@ -21,7 +23,8 @@ export const renderAirport: RenderFunction = (coords, state) => {
   const rectWidth = 22 * ratio
   const rectHeight = 14 * ratio
   const rectX = x - rectWidth - 2 * ratio
-  const rectY = y + 2 * ratio
+  const movedUpCoords = y - 17 * ratio
+  const rectY = airport.name === 'SVO' ? movedUpCoords : y + 2 * ratio
   ctx.beginPath()
   ctx.moveTo(rectX, rectY + rectRadius)
   ctx.arcTo(rectX, rectY + rectHeight, rectX + rectRadius, rectY + rectHeight, rectRadius)
@@ -36,6 +39,9 @@ export const renderAirport: RenderFunction = (coords, state) => {
   ctx.arcTo(rectX, rectY, rectX, rectY + rectRadius, rectRadius)
   ctx.fillStyle = mainColor
   ctx.fill()
+  ctx.shadowColor = 'black'
+  ctx.shadowOffsetX = 0.2
+  ctx.shadowOffsetY = 0.2
   // Render text
   const textX = rectX + rectWidth / 2
   const textY = rectY + 0.7 * ratio + rectHeight / 2

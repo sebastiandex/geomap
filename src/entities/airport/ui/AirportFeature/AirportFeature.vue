@@ -29,6 +29,6 @@ onMounted(setProperties)
 <template>
   <AppMapFeature ref="featureRef">
     <AppMapPoint :coords="props.airport.coords" />
-    <AppMapStyle :renderer="renderAirport" />
+    <AppMapStyle :renderer="renderAirport" :airport="props.airport" />
   </AppMapFeature>
 </template>

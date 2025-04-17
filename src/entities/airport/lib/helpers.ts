@@ -1,6 +1,6 @@
 import { useTelegramStore } from '@/entities/telegram'
 import type { Airport, Telegram } from '@/shared/model'
-import { mockData } from '@/entities/telegram/model/mocks_first_part(2)'
+import { mockData } from '@/entities/telegram/model/mocks_first_part_(3)'
 const store = useTelegramStore()
 export const getAirportsFromTelegrams = (telegrams: Telegram[]) => {
   const airports: Airport[] = []

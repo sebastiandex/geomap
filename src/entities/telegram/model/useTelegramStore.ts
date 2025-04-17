@@ -1,7 +1,7 @@
 import { ref, watch } from 'vue'
 import { defineStore } from 'pinia'
 import type { Telegram } from '@/shared/model'
-import { mockData } from './mocks_first_part(2)'
+import { mockData } from './mocks_first_part_(3)'
 
 export const useTelegramStore = defineStore('telegram', () => {
   const selected = ref<Telegram>()
@@ -26,6 +26,9 @@ export const useTelegramStore = defineStore('telegram', () => {
     const telegramsCopy = [...telegrams.value]
     telegrams.value = telegramsCopy.splice(0, 1)
   }
+  const disableAutoPlay = () => {
+    autoRunIOn.value = false
+  }
 
   watch(date, () => (selected.value = undefined))
 
@@ -39,5 +42,6 @@ export const useTelegramStore = defineStore('telegram', () => {
     removeActive,
     autoRunIOn,
     shiftArray,
+    disableAutoPlay,
   }
 })
