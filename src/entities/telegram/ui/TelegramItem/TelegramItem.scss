@@ -65,8 +65,8 @@
   &__arrow {
     margin-left: 8px;
     margin-right: 8px;
-    width: 24px;
-    color: var(--color-text-a4);
+    width: 20px;
+    color: var(--color-text);
   }
 
   &__time {
@@ -79,7 +79,7 @@
   &__iata {
     text-align: right;
     margin-left: auto;
-    height: 24px;
-    width: 24px;
+    max-height: 24px;
+    max-width: 24px;
   }
 }
