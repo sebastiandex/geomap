@@ -7,7 +7,7 @@ export interface Airport {
   coords: Coordinate
 }
 
-export type TelegramType = 'PNL' | 'PTM' | 'MVT' | 'PSM' | 'ADL' | 'LDM' | 'BSM'
+export type TelegramType = 'PNL' | 'PTM' | 'MVT' | 'PSM' | 'ADL' | 'LDM' | 'BSM' | 'PRL' | 'CRM'
 
 export interface Telegram {
   id: number

@@ -57,7 +57,7 @@ export const mockData: Telegram[] = [
       coords: [5304652.035026469, 5284158.732576696],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
 
   // вылеты из СПБ
@@ -240,7 +240,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '09.03.2023, 16:45:00',
+    datetime: '',
   },
   {
     id: 17,
@@ -355,7 +355,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 25,
@@ -383,8 +383,7 @@ export const mockData: Telegram[] = [
       coords: [5087300.729252602, 5371263.072058031],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
-    //new,
+    datetime: '',
   },
   {
     id: 27,
@@ -440,7 +439,7 @@ export const mockData: Telegram[] = [
       coords: [5485857.90213976, 7480574.980275688],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 31,
@@ -482,7 +481,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 33,
@@ -496,7 +495,7 @@ export const mockData: Telegram[] = [
       coords: [3368806.0901314416, 8355410.462125431],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 34,
@@ -552,7 +551,7 @@ export const mockData: Telegram[] = [
       coords: [4687975.4518789705, 5638729.204993358],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 38,
@@ -622,7 +621,7 @@ export const mockData: Telegram[] = [
       coords: [3368806.0901314416, 8355410.462125431],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 43,
@@ -664,7 +663,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 46,
@@ -762,7 +761,7 @@ export const mockData: Telegram[] = [
       coords: [2293025.663054325, 7340875.597788583],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 53,
@@ -894,7 +893,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 00:45:00',
+    datetime: '',
   },
   {
     id: 62,
@@ -953,7 +952,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 20:45:00',
+    datetime: '',
   },
   {
     id: 66,
@@ -1043,7 +1042,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '09.03.2023, 16:45:00',
+    datetime: '',
   },
   {
     id: 72,
@@ -1172,7 +1171,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 81,
@@ -1438,7 +1437,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'SU',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 100,
@@ -1508,7 +1507,7 @@ export const mockData: Telegram[] = [
       coords: [4149222.5122867655, 7479037.969008795],
     },
     iata: 'A4',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 105,
@@ -1606,7 +1605,7 @@ export const mockData: Telegram[] = [
       coords: [4164807.2409978234, 7552943.130519489],
     },
     iata: 'DP',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 112,
@@ -1620,7 +1619,7 @@ export const mockData: Telegram[] = [
       coords: [5583106.609296763, 7076231.14090393],
     },
     iata: 'DP',
-    //datetime: '10.04.2025, 08:46:45',
+    datetime: '',
   },
   {
     id: 113,
