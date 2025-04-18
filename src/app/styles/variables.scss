@@ -15,14 +15,17 @@
 }
 
 body.light {
-  --color-bg: #FFF;
-  --color-border: #EBEFF5;
+  // --color-bg: #FFF;
+  --color-bg: #EEEFF3;
+  // --color-border: #EBEFF5;
+  --color-border: #DDDEE2;
   --color-text: #333;
   --color-text-a4: rgba(51, 51, 51, 0.40);
   --color-text-a6: rgba(51, 51, 51, 0.60);
   --color-text-a8: rgba(51, 51, 51, 0.80);
   --color-link: #170C61;
-  --color-card: rgba(51, 51, 51, 0.02);
+  // --color-card: rgba(51, 51, 51, 0.02);
+  --color-card: #FFFFFFD9;
   --color-scrollbar-thumb: #ECF3FF;
 }
 

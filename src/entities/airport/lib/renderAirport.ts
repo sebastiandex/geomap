@@ -14,17 +14,17 @@ export const renderAirport: RenderFunction = (coords, state) => {
   // const textColor = isActive ? '#333' : '#fff'
   // Render circle
   ctx.beginPath()
-  ctx.arc(x, y, 2 * ratio, 0, 2 * Math.PI)
-  ctx.lineWidth = 1 * ratio
+  ctx.arc(x, y, 3 * ratio, 0, 2 * Math.PI)
+  ctx.lineWidth = 0.8 * ratio
   ctx.strokeStyle = mainColor
   ctx.stroke()
   // Render rectangle
   const rectRadius = 2 * ratio
-  const rectWidth = 22 * ratio
-  const rectHeight = 14 * ratio
-  const rectX = x - rectWidth - 2 * ratio
-  const movedUpCoords = y - 17 * ratio
-  const rectY = airport.name === 'SVO' ? movedUpCoords : y + 2 * ratio
+  const rectWidth = 15 * ratio
+  const rectHeight = 10 * ratio
+  const rectX = x - rectWidth - 4 * ratio
+  const movedUpCoords = y - 10 * ratio
+  const rectY = airport.name === 'SVO' ? movedUpCoords : y - 5 * ratio
   ctx.beginPath()
   ctx.moveTo(rectX, rectY + rectRadius)
   ctx.arcTo(rectX, rectY + rectHeight, rectX + rectRadius, rectY + rectHeight, rectRadius)
@@ -39,14 +39,14 @@ export const renderAirport: RenderFunction = (coords, state) => {
   ctx.arcTo(rectX, rectY, rectX, rectY + rectRadius, rectRadius)
   ctx.fillStyle = mainColor
   ctx.fill()
-  ctx.shadowColor = 'black'
-  ctx.shadowOffsetX = 0.2
-  ctx.shadowOffsetY = 0.2
+  // ctx.shadowColor = 'black'
+  // ctx.shadowOffsetX = 0.2
+  // ctx.shadowOffsetY = 0.2
   // Render text
   const textX = rectX + rectWidth / 2
-  const textY = rectY + 0.7 * ratio + rectHeight / 2
+  const textY = rectY + 0.6 * ratio + rectHeight / 2
   ctx.fillStyle = textColor
-  ctx.font = `bold ${7 * ratio}px/1 Open Sans`
+  ctx.font = `bold ${6 * ratio}px/1 Open Sans`
   ctx.textBaseline = 'middle'
   ctx.textAlign = 'center'
   ctx.fillText(airport.name, textX, textY)

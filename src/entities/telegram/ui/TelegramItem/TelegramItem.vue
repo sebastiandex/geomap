@@ -1,15 +1,16 @@
 <script lang="ts" setup>
 import ArrowRight from '@/shared/ui/icons/IconArrowRight.vue'
 import type { Telegram, TelegramType } from '@/shared/model'
+import { computed } from 'vue'
 import './TelegramItem.scss'
-
+import '@/shared/airportLogo/*.svg'
+import defaultAirportImage from '/airportLogo/unknown.svg'
 interface TelegramItemProps {
   telegram: Telegram
   isActive?: boolean
 }
 
 const props = defineProps<TelegramItemProps>()
-
 // const getTime = (date: string) => {
 //   const time = new Date(date)
 //   const hours = (time.getHours() < 10 ? '0' : '') + time.getHours()
@@ -17,6 +18,10 @@ const props = defineProps<TelegramItemProps>()
 //   const seconds = (time.getSeconds() < 10 ? '0' : '') + time.getSeconds()
 //   return `${hours + ':' + minutes + ':' + seconds}`
 // }
+
+const imagePath = computed(() => {
+  return `/airportLogo/${props.telegram.iata}.svg`
+})
 
 const codeColors: Record<TelegramType, string> = {
   PNL: 'lightBlue',
@@ -50,7 +55,7 @@ const codeColors: Record<TelegramType, string> = {
       {{ getTime(props.telegram.datetime) }}
     </div> -->
     <div class="TelegramItem__iata">
-      {{ props.telegram.iata }}
+      <img :src="imagePath" @error="imagePath = defaultAirportImage" />
     </div>
   </button>
 </template>
