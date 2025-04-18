@@ -19,7 +19,7 @@ const props = defineProps<TelegramItemProps>()
 // }
 
 const imagePath = computed(() => {
-  return `/airportLogo/${props.telegram.iata}.svg`
+  return `./airportLogo/${props.telegram.iata}.svg`
 })
 
 const codeColors: Record<TelegramType, string> = {
