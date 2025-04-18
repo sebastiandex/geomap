@@ -17,9 +17,11 @@ export const getTelegramColor = (type: string) => {
     PTM: 'blue',
     MVT: 'purple',
     PSM: 'orange',
-    ADL: 'green',
-    LDM: 'green',
-    BSM: 'green',
+    ADL: 'adl',
+    LDM: 'ldm',
+    BSM: 'bsm',
+    PRL: 'prl',
+    CRM: 'crm',
   }
   return codeColors[type]
 }

@@ -27,9 +27,11 @@ const codeColors: Record<TelegramType, string> = {
   PTM: 'blue',
   MVT: 'purple',
   PSM: 'orange',
-  ADL: 'green',
-  LDM: 'green',
-  BSM: 'green',
+  ADL: 'adl',
+  LDM: 'ldm',
+  BSM: 'bsm',
+  PRL: 'prl',
+  CRM: 'crm',
 }
 </script>
 

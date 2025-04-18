@@ -40,7 +40,21 @@
   &__type_green {
     color: var(--color-green);
   }
-
+  &__type_adl {
+    color: var(--color-adl);
+  }
+  &__type_ldm {
+    color: var(--color-ldm);
+  }
+  &__type_bsm {
+    color: var(--color-bsm);
+  }
+  &__type_prl {
+    color: var(--color-prl);
+  }
+  &__type_crm {
+    color: var(--color-crm);
+  }
   &__code {
     display: flex;
     font-size: 16px;
