@@ -3,7 +3,6 @@ import ArrowRight from '@/shared/ui/icons/IconArrowRight.vue'
 import type { Telegram, TelegramType } from '@/shared/model'
 import { computed } from 'vue'
 import './TelegramItem.scss'
-import '@/shared/airportLogo/*.svg'
 import defaultAirportImage from '/airportLogo/unknown.svg'
 interface TelegramItemProps {
   telegram: Telegram
